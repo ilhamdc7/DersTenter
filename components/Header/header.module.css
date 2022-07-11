@@ -1,0 +1,31 @@
+.header{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #f2f2f2;
+}
+
+.logo{
+    width: 11.45%;
+    height: 100%;
+    background: linear-gradient(180deg, #85C48D -0.42%, #6DC09C 30.39%, #30B6C3 94.01%, #2BB5C6 98.98%);
+    margin-left: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    border-radius: 18px;
+}
+
+
+.headerLink{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #05242E;
+    margin-left: 3%;
+}

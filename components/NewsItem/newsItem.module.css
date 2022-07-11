@@ -1,0 +1,33 @@
+.container{
+    width: 400px;
+    height: 600px;
+    border: grey solid 0.5px;
+    margin: 10px 10px;    
+    display: block;
+}
+
+
+.titleSpan{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: 0.003em;
+    color: #11142D;
+}
+
+.descContainer{
+    width: 100%;
+    height: 57px;
+    overflow: hidden !important;
+    margin-top: 50px;
+    /* white-space: nowrap; */
+    text-overflow: ellipsis;
+    display: -webkit-box;
+-webkit-line-clamp: 3;
+-webkit-box-orient: vertical;
+}
+
+.description{
+}
